@@ -137,7 +137,9 @@
       <div class="text absolute top-1/2 left-[25px] transform -translate-y-1/2 -translate-x-full">45</div>
       <div class="text absolute top-1/2 right-[25px] transform -translate-y-1/2 translate-x-full">15</div>
       <div class="inner-circle border-2 border-black h-32 w-32 rounded-full flex  justify-center ">
-          <div class="clock-sec h-[60px] rounded-[50px] w-2 border border-black bg-black  origin-bottom animate-spin "></div>
+        <div class="clock-sec h-[60px] rounded-[50px] w-[2px] border border-black bg-black  origin-bottom animate-spin "></div>
+        <div class="clock-min h-[56px] rounded-[50px] w-[4px] border border-black bg-black  origin-bottom animate-spin "></div>
+        <div class="clock-hour h-[50px] rounded-[50px] w-[6px] border border-black bg-black  origin-bottom animate-spin "></div>
       </div>
   
     </div></div>
